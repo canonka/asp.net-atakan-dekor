@@ -1,5 +1,5 @@
 # asp.net-atakan-dekor
-Ders projesi olarak asp.net ile geliştirmiş olduğum projedir
+<p>Okul projesi olarak Web Programlama dersi için geliştirdiğim asp.net projesidir</p>
 <br/>
   <p>LinkedIn : https://www.linkedin.com/in/batuhansener3553/</p>
 <br/>
