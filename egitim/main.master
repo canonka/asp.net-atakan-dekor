@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Atakan Dekor</title>
+    <link href="/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <div id="sayfa">
+             <div class="baslik"><a class="baslikk" href="/">ATAKAN DEKOR</a></div>
+                <header>
+                <div class="logo">
+                    <img src="img/logo/ikon.ico" width="45" height="45"></img>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="ust" href="/">Ana Sayfa</a></li>
+                        <li><a class="ust" href="vitrindekorasyon.aspx">Vitrin Dekorasyon</a></li>
+                        <li><a class="ust" href="hakkimizda.aspx">Hakkımızda</a></li>
+                        <li><a class="ust" href="referanslarimiz.aspx">Referanslarımız</a></li>
+                        <li><a class="ust" href="iletisim.aspx">İletişim</a></li>
+                    </ul>
+                </nav>
+                <div class="logo2">
+                    <img src="img/logo/ikon.ico" width="45" height="45"></img>
+                </div>
+            </header>     
+            <div class="icerik">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+                       <div id="smedya">
+                            <a href="#"><img class="cik" src="img/logo/cik.png" title="YUKARI ÇIK" style="width:4%"></a>
+                            <a href="https://www.facebook.com/mehmetemin.sener.92" target=_blank><img class="medya" src="img/logo/facebook.png" title="Bizi takip edin" style="width:5%"></a>
+                     </div>
+        </div>
+    <footer>
+                Kuyumcu  vitrin  dekorasyon  hizmetleri  olarak  tüm  hakları  atakan-dekor.com'a  aittir. Fotoğrafların izinsiz alınması, kullanılması, kopyalanması veya çoğaltılması gibi işlemler kesinlikle yasaktır.  Copyright  &copy;  2018  
+    </footer>
+</body>
+</html>
