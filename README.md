@@ -13,9 +13,7 @@
   </tr>
 </table> 
 <br/>
- <p><b><a href="https://github.com/canonka/asp.net-atakan-dekor/archive/master.zip">Download Project</a></b></p>
-<br/>
-  <p><a href="https://www.linkedin.com/in/senerbatuhan/">Linkedin</a></p>
+  <p><b><a href="https://www.linkedin.com/in/senerbatuhan/">Linkedin</a></b></p>
 <br/>
 <p><b>Created by Batuhan ŞENER</b></p>
 <br/>
